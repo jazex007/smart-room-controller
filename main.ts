@@ -85,7 +85,7 @@ basic.showLeds(`
     # # . . .
     `)
 stopconcon = 550
-// this is the place where just basic animation is used to tell it you are connected to server by adding third point and deleting it when the connection is false  then the fourth dot load when you are connected to server
+// this is the place where just basic animation is used to tell if you are connected to server by adding third point and deleting it when the connection is false  then the fourth dot load when you are connected to server
 while (stopconcon == 550) {
     basic.showLeds(`
         . . . . .
